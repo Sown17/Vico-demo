@@ -1,0 +1,152 @@
+.step{
+    margin-top: 114px;
+    margin-bottom: 70px;
+    transition: all .5s ease;
+    &-caption{
+        text-align: center;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 1);
+        position: relative;
+        margin-bottom: 79px;
+        &::before{
+            bottom: -10px;
+            content: '';
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: $gray-blue;
+            width: 112px;
+            height: 5px;
+            position: absolute;
+        }
+    }
+    &-list{
+        background-color: rgba(239, 252, 255, 1);
+        border-radius: 15px;
+        padding-bottom: 15px;
+        position: sticky;
+    }
+    &-title{
+        background-color: $color-main;
+        border-radius: 42px;
+        padding: 3px 7px;
+        width: 50%;
+        text-align: start;
+        display: inline-block;
+        margin: 15px;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+
+        }
+    }
+    &-desc{
+        font-size: 14px;
+        padding: 0px 15px;
+        line-height: 1.4;
+    }
+    &-button{
+        width: 231px;
+        height: 48px;
+        background-color: $gray-green;
+        padding-top: 14px;
+        font-size: 16px;
+    }
+    &-right{
+        border-radius: 20px;
+        padding: 40px;
+        margin-top: 40px;
+        background-color: $color-main;
+        background: url('../img/bg5.png') no-repeat top center / cover;
+        color: #fff;
+        .right-title{
+            font-size: 20px;
+            color: $green;
+            font-weight: 700;
+        }
+        .right-desc{
+            margin-top: 40px;
+            font-size: 20px;
+            font-weight: 700;
+            color: $gray-blue;
+        }
+        .right-member{
+            display: flex;
+            justify-content: space-between;
+            img{
+                margin-top: 20px;
+                float: left;
+            }
+            .member-caption{
+                margin-top: 30px;
+                margin-left: 70px;
+                p {
+                    font-size: 13px;
+                    padding-top: 5px;
+                }
+            }
+            .positon{
+                padding-top: 20px;
+                padding-left:40px;
+                position: relative;
+                &::before{
+                    content: '';
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    left: 15px;
+                    top: 25px;
+                    position: absolute;
+                    background-color: $gray-blue;
+                    border: 3px solid rgba(46, 187, 245, 0.15);
+                    outline: 3px solid rgba(46, 187, 245, 0.1);
+                }
+            }
+        }
+        .right-social{
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 15px 40px;
+            border-radius: 20px;
+            margin-top: 17px;
+            p{
+                font-size: 34px;
+                font-weight: 700;
+            }
+        }
+        .right-img{
+            display: flex;
+            span{
+                display: inline-block;
+                padding-top: 35px;
+                padding-left: 35px;
+            }
+        }
+        .img-border{
+            padding: 10px 0;
+            border: 1px #fff dashed ;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            width: 55%;
+            margin-top: 20px;
+        }
+        .social-number,
+        .social-email,
+        .social-btn
+        {
+            height: 49px;
+        }
+        .social-number{
+            width: 202px;
+        }
+        .social-email{
+            width: 151px;
+        }
+        .social-btn{
+            width: 190px;
+            
+
+        }
+    }
+}

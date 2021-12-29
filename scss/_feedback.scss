@@ -1,0 +1,85 @@
+.feedback{
+    position: relative;
+    // background: url('../img/phone-bg.png') no-repeat top center / cover;
+    background-color: $color-main;
+    &-item{
+        img{
+            width: 182px;
+        }
+    }
+    &-title{
+        padding-top: 30px;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        position: relative;
+        margin-bottom: 49px;
+        &::before{
+            bottom: -10px;
+            content: '';
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: $gray-blue;
+            width: 112px;
+            height: 5px;
+            position: absolute;
+        }
+        p{
+            font-size: 22px;
+            padding-bottom: 10px;
+        }
+    }
+    .feedback-slick .slick-list, .feedback-slick .slick-track {
+        height:600px;
+        padding-top: 100px;
+    }
+    .feedback-slick .slick-center {
+        transform: scale(1.3);
+        transform-origin: center center;
+    }
+    .img-center{
+        top: 59%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 540px;
+        position: absolute;
+    }
+}
+.partner{
+    padding-bottom: 30px;
+    background-color: #222647;
+    padding-top: 48px;
+    padding-bottom: 84px;
+    &-title{
+        padding-top: 30px;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        position: relative;
+        margin-bottom: 49px;
+        &::before{
+            bottom: -10px;
+            content: '';
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: $gray-blue;
+            width: 112px;
+            height: 5px;
+            position: absolute;
+        }
+    }
+    
+    .col-partner {
+        max-width: 14.2857142857%;
+        margin: 0 2px;
+    
+    }
+    .col-partner img {
+        width: 100%;
+        height: 90px;
+        object-fit: contain;
+        background: #fff;
+        padding: 0.6rem;
+        border-radius: 5px;
+    }
+}

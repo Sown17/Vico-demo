@@ -1,0 +1,25 @@
+.nav{
+    width: 955px;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(223, 205, 205, 0.15);
+    font-size: 14px;
+    margin-bottom: 69px;
+    &-list{
+        display: inline-block;
+    }
+    &-menu{
+        padding: 0px;
+    }
+    &-link{
+        text-decoration: none;
+        padding: 0 26px;
+        color: #fff;
+        img{
+            transform: translateY(3px);
+        }
+    }
+}

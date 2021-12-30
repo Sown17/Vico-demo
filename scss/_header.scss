@@ -58,10 +58,16 @@
         .fa-whatsapp{
             color: $green;
             font-size: 23px;
+           
         }
     }
     .whatapp-desc{
+        padding-left: 20px;
         color: $green;
+        p{
+            margin-right: 15px;
+            text-align: end;
+        }
     }
     &-phone{
         img{
